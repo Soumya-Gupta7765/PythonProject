@@ -10,11 +10,9 @@
 
 Setup Instructions:
 
-Download or clone the Minesweeper project files into a folder on your computer.
-Make sure you have a C compiler (like gcc) installed.
-Open a terminal or command prompt and navigate to your project folder.
-Compile the Minesweeper code using gcc minesweeper.c -o minesweeper.
-Run the game by executing ./minesweeper (Linux/Mac) or minesweeper.exe (Windows).
+Create a project folder
+Create a python file inside the folder, The program automatically creates and uses a saved file pytext
+Run the game, open terminal inside the project folder and run 
 
 
 Game Instructions:
