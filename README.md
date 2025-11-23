@@ -1,5 +1,33 @@
-			                                               MINESWEEPER 
+			                             MINESWEEPER 
+										 
+--main.py
+--game_logic.py
+--pytxt.txt
+--board.py
+--file_manager.py
 
+
+
+Setup Instructions:
+
+Download or clone the Minesweeper project files into a folder on your computer.
+Make sure you have a C compiler (like gcc) installed.
+Open a terminal or command prompt and navigate to your project folder.
+Compile the Minesweeper code using gcc minesweeper.c -o minesweeper.
+Run the game by executing ./minesweeper (Linux/Mac) or minesweeper.exe (Windows).
+
+
+Game Instructions:
+
+The objective is to uncover all cells without detonating any mines hidden under some squares.
+Click a cell to reveal it: if it’s a mine, the game ends; if not, you'll see either a blank or a number.
+Numbers show how many mines are adjacent to that cell (including diagonally).
+Use flags to mark cells you suspect contain mines.
+Use logic and the numbers revealed to deduce safe cells and avoid mines.
+Win by revealing all safe cells; lose if you uncover a mine.
+
+
+Code explanation
 First, we are importing random module. 
 
 #Initialising variables
