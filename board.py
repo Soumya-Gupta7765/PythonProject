@@ -3,7 +3,7 @@ rows,cols,nmines = 9, 9, 10
 SAVE_FILE = "pytxt.txt"                      #Saved in a file named pytxt.txt
 
 class Cell:
-    def _init_(self):
+    def __init__(self):
         self.mine = False                #intializing with no mines
         self.revealed = False
         self.flagged = False
@@ -33,3 +33,4 @@ def count_adjacent(board, r, c):
             if 0 <= rr < rows and 0 <= cc < cols and board[rr][cc].mine:
                 n += 1
     return n
+
