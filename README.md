@@ -49,7 +49,7 @@ If cell is already revealed or flagged, we will return NULL value otherwise we w
 If the player hits any one of the mine reveal_all_mines will reveal all the remaining mines accordingly. Check_win will go through all cells of 9X9 grid, and if  any mine is not revealed and all the cells which do not have mine is revealed then this function will return true.
 
 #Display board
-For every row we have to take a list and append the corresponding symbols to it and print for all the rows. This function uses various symbols to give a display on the command line. It represents mine using ‘*’ symbol and normal cell using ‘ ’ symbol and flagged cell using ‘⚑ ’ symbol. If the cell doesn’t contain any adjacent mine then we will give space for notation.
+For every row we have to take a list and append the corresponding symbols to it and print for all the rows. This function uses various symbols to give a display on the command line. It represents mine using ‘*’ symbol and normal cell using ‘■’ symbol and flagged cell using ‘⚑ ’ symbol. If the cell doesn’t contain any adjacent mine then we will give space for notation.
 
 #save_game 
 The save_game function stores the current situation of the game in a text file. The first line includes board dimension, number of mines and rows, columns. It scans  all the cells for mines and append it to the second line of the file. It scans all the cells which are revealed and append them into the third line of the file. It scans for all the flagged cells and append them in forth line. 
